@@ -587,6 +587,11 @@ form {
   padding-top: .7em;
 }
 
+/* line 54, ../sass/partials/_tour.scss */
+.tour-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 1050px) {
   /* line 3, ../sass/partials/_media-queries.scss */
   .album-title-container {
@@ -1267,60 +1272,82 @@ form {
 
   /* line 579, ../sass/partials/_media-queries.scss */
   .tour-dates {
-    width: 80%;
+    width: 90%;
     margin-top: -278%;
     margin-left: 7%;
   }
 
-  /* line 585, ../sass/partials/_media-queries.scss */
-  .tour-row {
+  /* line 584, ../sass/partials/_media-queries.scss */
+  .tour {
+    display: none;
+  }
+
+  /* line 588, ../sass/partials/_media-queries.scss */
+  .tour-mobile {
+    display: block;
+    margin-top: -120%;
+  }
+
+  /* line 593, ../sass/partials/_media-queries.scss */
+  .show-container-mobile {
     width: 100%;
-    margin-top: -142%;
-    margin-left: 5%;
+    margin-top: 2em;
   }
 
-  /* line 591, ../sass/partials/_media-queries.scss */
-  .date-pic {
-    width: 40%;
-    margin-top: 3%;
-    margin-left: -135%;
+  /* line 598, ../sass/partials/_media-queries.scss */
+  .date-pic-mobile {
+    width: 10%;
+    margin-left: 45%;
   }
 
-  /* line 596, ../sass/partials/_media-queries.scss */
-  .arena {
-    margin-top: 8%;
-    margin-left: -11em;
-    font-size: 10px;
+  /* line 602, ../sass/partials/_media-queries.scss */
+  .arena-mobile {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 16px;
   }
 
-  /* line 601, ../sass/partials/_media-queries.scss */
-  .city {
-    margin-top: 10%;
-    font-size: 10px;
-    margin-left: -4.3em;
+  /* line 610, ../sass/partials/_media-queries.scss */
+  .city-mobile {
+    margin-top: .5em;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    opacity: 0.6;
   }
 
-  /* line 607, ../sass/partials/_media-queries.scss */
-  .tickets-div {
-    width: 70px;
-    margin-top: -.5em;
-    margin-left: -1em;
+  /* line 619, ../sass/partials/_media-queries.scss */
+  .tickets-div-mobile {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 30%;
+    width: 125px;
+    height: 35px;
+    background-color: #11173f;
   }
 
-  /* line 613, ../sass/partials/_media-queries.scss */
-  .tickets {
-    font-size: 10px;
-    padding-top: 1em;
+  /* line 628, ../sass/partials/_media-queries.scss */
+  .tickets-mobile {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: .7em;
   }
 
-  /* line 618, ../sass/partials/_media-queries.scss */
+  /* line 637, ../sass/partials/_media-queries.scss */
   .newsletter {
     width: 60%;
-    margin-top: -4em;
+    margin-top: 4em;
     margin-left: 4em;
   }
 
-  /* line 624, ../sass/partials/_media-queries.scss */
+  /* line 643, ../sass/partials/_media-queries.scss */
   .input-text {
     margin-top: 3em;
     margin-left: -3em;
@@ -1328,40 +1355,40 @@ form {
     width: 100%;
   }
 
-  /* line 631, ../sass/partials/_media-queries.scss */
+  /* line 650, ../sass/partials/_media-queries.scss */
   form {
-    margin-top: -2em;
+    margin-top: 1em;
     margin-left: 15%;
   }
 
-  /* line 636, ../sass/partials/_media-queries.scss */
+  /* line 655, ../sass/partials/_media-queries.scss */
   .subscribe-text {
     margin-top: 2em;
     font-size: 10px;
     margin-left: -5em;
   }
 
-  /* line 642, ../sass/partials/_media-queries.scss */
+  /* line 661, ../sass/partials/_media-queries.scss */
   .subscribe {
     width: 100%;
     margin-left: -2em;
     margin-top: 1em;
   }
 
-  /* line 648, ../sass/partials/_media-queries.scss */
+  /* line 667, ../sass/partials/_media-queries.scss */
   .privacy-policy {
     margin-top: 1em;
     font-size: 10px;
     margin-left: -5em;
   }
 
-  /* line 654, ../sass/partials/_media-queries.scss */
+  /* line 673, ../sass/partials/_media-queries.scss */
   .submit-button {
     margin-top: 1em;
     margin-left: 10%;
   }
 
-  /* line 659, ../sass/partials/_media-queries.scss */
+  /* line 678, ../sass/partials/_media-queries.scss */
   .footer-label {
     padding-top: 1em;
     margin-top: 1em;
@@ -1369,12 +1396,12 @@ form {
     margin-left: .7em;
   }
 
-  /* line 666, ../sass/partials/_media-queries.scss */
+  /* line 685, ../sass/partials/_media-queries.scss */
   .social-footer-icons {
     margin-right: 0em;
   }
 
-  /* line 670, ../sass/partials/_media-queries.scss */
+  /* line 689, ../sass/partials/_media-queries.scss */
   .footer-social-img {
     width: 25%;
     margin-top: 2.5em;
@@ -1382,7 +1409,7 @@ form {
     padding-bottom: 1em;
   }
 
-  /* line 677, ../sass/partials/_media-queries.scss */
+  /* line 696, ../sass/partials/_media-queries.scss */
   #fb-footer {
     width: 15%;
   }
