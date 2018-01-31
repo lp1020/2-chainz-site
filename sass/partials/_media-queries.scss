@@ -697,5 +697,42 @@ margin-left: -5em;
   width: 15%;
 }
 
+}
 
+@media screen and (max-width:350px) {
+  .header-link {
+    font-size: 12px;
   }
+
+  .header-social-icon {
+    width: 20%;
+    margin-left: -.3em;
+  }
+
+  #fb {
+    width: 40%;
+  }
+
+  .button {
+    margin-left: 3em;
+  }
+
+  .arrow {
+    margin-left: 10em;
+  }
+
+  .buy-button {
+    margin-left: -.7em;
+    margin-right: 1.2em;
+  }
+
+.track-mobile {
+  font-size: 10.5px;
+  }
+.footer-div {
+  padding-bottom: 80px;
+}
+.footer-label {
+  font-size: 8px;
+}
+}

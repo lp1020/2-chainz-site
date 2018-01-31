@@ -1414,3 +1414,51 @@ form {
     width: 15%;
   }
 }
+@media screen and (max-width: 350px) {
+  /* line 703, ../sass/partials/_media-queries.scss */
+  .header-link {
+    font-size: 12px;
+  }
+
+  /* line 707, ../sass/partials/_media-queries.scss */
+  .header-social-icon {
+    width: 20%;
+    margin-left: -.3em;
+  }
+
+  /* line 712, ../sass/partials/_media-queries.scss */
+  #fb {
+    width: 40%;
+  }
+
+  /* line 716, ../sass/partials/_media-queries.scss */
+  .button {
+    margin-left: 3em;
+  }
+
+  /* line 720, ../sass/partials/_media-queries.scss */
+  .arrow {
+    margin-left: 10em;
+  }
+
+  /* line 724, ../sass/partials/_media-queries.scss */
+  .buy-button {
+    margin-left: -.7em;
+    margin-right: 1.2em;
+  }
+
+  /* line 729, ../sass/partials/_media-queries.scss */
+  .track-mobile {
+    font-size: 10.5px;
+  }
+
+  /* line 732, ../sass/partials/_media-queries.scss */
+  .footer-div {
+    padding-bottom: 80px;
+  }
+
+  /* line 735, ../sass/partials/_media-queries.scss */
+  .footer-label {
+    font-size: 8px;
+  }
+}
