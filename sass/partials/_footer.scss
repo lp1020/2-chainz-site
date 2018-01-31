@@ -1,0 +1,28 @@
+.footer-div {
+  margin-top: 7%;
+  width: 110%;
+  height: 45px;
+  background-color: black;
+  z-index: 10;
+  margin-left: -8%;
+}
+
+.footer-label {
+  font-family:'Work Sans', sans-serif;
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  margin-top: 1em;
+  margin-left: 3%;
+}
+
+.social-footer-icons {
+  display: inline-flex;
+  float: right;
+  margin-right: 4em;
+  margin-top: -2em;
+}
+
+.footer-social-img {
+  margin-right: 2em;
+}

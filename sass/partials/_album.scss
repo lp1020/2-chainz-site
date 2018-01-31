@@ -1,0 +1,90 @@
+
+.new-album-container {
+  max-width: 100%;
+  margin-top: 8%;
+  margin-left: 6em;
+}
+
+.new-album-image {
+  width: 25%;
+  margin-left: 5.5em;
+}
+.album-info-container {
+  display: flex;
+  margin-top: -21em;
+  margin-left: 28em;
+}
+
+.new-album {
+  font-weight: 600;
+  font-family:'Work Sans', sans-serif;
+  color: #c49640;
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+.album-title-2 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  margin-top: .5em;
+  margin-left: -4.1em;
+}
+
+
+.buy-button-container {
+margin-top: 5.5em;
+width: 80%;
+display: inline-flex;
+margin-left: -36.2em;
+}
+
+.buy-button {
+  width: 125px;
+  height: 45px;
+  background-color: rgb(17, 23, 63);
+  text-align: center;
+  margin-right: 13px;
+}
+
+.buy-button img {
+margin-top: 1.2em;
+}
+
+.tracklist {
+  width: 100%;
+  margin-top: .5em;
+  margin-left: 33.5%;
+}
+
+.tracklist-mobile {
+  display: none;
+}
+
+.track {
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  margin-top: .5em;
+}
+
+.track-number {
+ color: #c49640;
+ display: inline-block;
+}
+.track-number:hover {
+  width: 1em;
+  text-shadow: 1px 1px white;
+
+}
+
+.play-icon:hover{
+  width: 1em;
+  background-color: white;
+}
+
+.track-name {
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+}

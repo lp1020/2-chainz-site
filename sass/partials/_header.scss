@@ -1,0 +1,115 @@
+html, body {
+margin:0;
+padding:0;
+max-width: 100%;
+overflow-x: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #05061a;
+}
+
+header {
+    background: url("../images/-e-hero-slide11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 58em;
+}
+
+.chainz-mobile {
+  display: none;
+}
+
+.chainz {
+color: white;
+max-width: 100%;
+font-size: 34px;
+margin-top: -1.3em;
+text-align: center;
+margin-left: -7.5em;
+margin-right: 15em;
+position: relative;
+font-family: 'American Typewriter';
+}
+
+.nav-div {
+  background-color: black;
+ opacity: 0.3;
+  max-width: 100%;
+  height: 11%;
+  border-bottom: .5px solid lightgrey;
+}
+
+.header-social-icon {
+  max-width: 100%;
+  position: relative;
+  float: right;
+  padding: .8em;
+  margin-top: -3em;
+  z-index: 10;
+}
+
+.header-social-img {
+  width: 80%;
+}
+
+#nav-login {
+  margin-right: .5em;
+}
+
+.header-link-container {
+  position: relative;
+  z-index:10;
+  margin-top: -3.5em;
+}
+.header-link {
+  float: left;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-left: 1.5em;
+  font-weight: 600;
+}
+
+
+.album-title-container {
+  width: 50%;
+  margin-top: 12em;
+  margin-left: 42em;
+}
+
+.album-title {
+  font-size: 72px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+   text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.button {
+  background-color: #1f1f33;
+  font-family:'Work Sans', sans-serif;
+  color: white;
+  text-align: center;
+  padding: .8em;
+  font-size: 18px;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border: 1px solid #1f1f33;
+  box-shadow: 1.5px 1.5px #515570;
+  margin-top: 1em;
+  margin-left: 11em;
+  font-weight: 600;
+}
+
+.arrow {
+  display: block;
+  margin-top: 2em;
+  margin-left: 20.5em;
+}
