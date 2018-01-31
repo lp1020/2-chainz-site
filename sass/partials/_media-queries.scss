@@ -122,8 +122,12 @@ font-size: 10px;
 padding-top: 1em;
 }
 
-.social-footer-icons {
-  margin-right: 0em;
+.footer-div {
+  margin-left: 0%;
+}
+
+.footer-label {
+  margin-left: 2%;
 }
 
 }
@@ -305,7 +309,7 @@ form {
 }
 
 .social-footer-icons {
-  margin-right: 0em;
+  margin-right: 5em;
 }
 
 .footer-social-img {
@@ -317,7 +321,7 @@ form {
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
 
   .nav-div {
   height: 13%;
@@ -483,6 +487,7 @@ margin-left: -21em;
 
 
 .smaller-image-mobile {
+  width: 100%;
   margin-top: 10%;
 }
 
@@ -507,7 +512,7 @@ font-family: 'Work Sans', sans-serif;
 
 .news-top-right-mobile {
    position: relative;
-  width: 105%;
+  width: 100%;
   margin-top: -3.2em;
   height: 45px;
   background-color: rgba(17, 23, 63, 0.8);
@@ -526,7 +531,7 @@ font-family: 'Work Sans', sans-serif;
 
 .news-bottom-left-mobile {
    position: relative;
-  width: 105%;
+  width: 100%;
   margin-top: -3.2em;
   height: 45px;
   background-color: rgba(17, 23, 63, 0.8);
@@ -545,7 +550,7 @@ font-family: 'Work Sans', sans-serif;
 
 .news-bottom-right-mobile {
    position: relative;
-  width: 105%;
+  width: 100%;
   margin-top: -3.2em;
   height: 45px;
   background-color: rgba(17, 23, 63, 0.8);
@@ -574,29 +579,29 @@ font-family: 'Work Sans', sans-serif;
 .tour-dates {
   width: 80%;
   margin-top: -278%;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 .tour-row {
   width: 100%;
   margin-top: -142%;
   margin-left: 5%;
-
 }
+
 .date-pic {
-width: 50%;
+width: 40%;
 margin-top: 3%;
 margin-left: -135%;
 }
 .arena {
   margin-top: 8%;
-margin-left: -9em;
+margin-left: -11em;
 font-size: 10px;
 }
 .city {
   margin-top: 10%;
 font-size: 10px;
-margin-left: -5em;
+margin-left: -4.3em;
 }
 
 .tickets-div {
@@ -665,7 +670,7 @@ margin-left: -5em;
 .footer-social-img {
   width: 25%;
   margin-top: 2.5em;
-  margin-right: 1.7em;
+  margin-right: 2em;
   padding-bottom: 1em;
 }
 

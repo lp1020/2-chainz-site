@@ -1,0 +1,13 @@
+@mixin my-button {
+  background-color: #1f1f33;
+  font-family:'Work Sans', sans-serif;
+  color: white;
+  text-align: center;
+  padding: .8em;
+  font-size: 18px;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border: 1px solid #1f1f33;
+  box-shadow: 1.5px 1.5px #515570;
+  font-weight: 600;
+  }
